@@ -1,3 +1,4 @@
+import 'package:banners_app/widgets/drop_down_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -38,7 +39,9 @@ class SerachClading extends StatelessWidget {
             const SizedBox(
               height: 30,
             ),
-            ImageWidget(imagePath: 'assets/images/clading.jpg')
+           const ImageWidget(imagePath: 'assets/images/clading.jpg'),
+           SizedBox(height: 35,),
+           DropDownButton(),
           ],
         ),
       ),

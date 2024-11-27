@@ -1,4 +1,3 @@
-import 'package:banners_app/widgets/back_item.dart';
 import 'package:flutter/material.dart';
 
 class TransPage extends StatelessWidget {
@@ -6,9 +5,6 @@ class TransPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-     
-    );
-    
+    return Column();
   }
 }
