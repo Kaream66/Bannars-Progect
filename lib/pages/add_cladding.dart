@@ -1,10 +1,9 @@
-import 'package:banners_app/widgets/choose_widget.dart';
-import 'package:banners_app/widgets/custom_button.dart';
+
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:flutter/material.dart';
 
-class SerachClading extends StatelessWidget {
-  const SerachClading({super.key});
+class AddCladding extends StatelessWidget {
+  const AddCladding({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +19,7 @@ class SerachClading extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     const Text(
-                      '  بحث عن كلادينج',
+                      '  اضافة  كلادينج',
                       style: TextStyle(
                         fontSize: 30,
                         color: Colors.black,
@@ -43,28 +42,7 @@ class SerachClading extends StatelessWidget {
                 height: 30,
               ),
               const ImageWidget(imagePath: 'assets/images/clading.jpg'),
-              const SizedBox(
-                height: 35,
-              ),
-             const ChooseWidget(chooseName: 'اختر الخامة'),
-              const SizedBox(
-                height: 30,
-              ),
               
-              const SizedBox(
-                height: 35,
-              ),
-              const ChooseWidget(chooseName: 'اختر اللون'),
-              const SizedBox(
-                height: 30,
-              ),
-             
-              const SizedBox(
-                height: 35,
-              ),
-             const ChooseWidget(chooseName: ' اختر ملمس السطح'),
-             const Spacer(),
-              CustomButton(label: 'بحث',onTap: (){},)
             ],
           ),
         ),

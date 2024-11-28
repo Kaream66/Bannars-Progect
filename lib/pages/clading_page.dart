@@ -1,4 +1,5 @@
-import 'package:banners_app/pages/serach_clading.dart';
+import 'package:banners_app/pages/add_cladding.dart';
+import 'package:banners_app/pages/choose_cladding.dart';
 import 'package:banners_app/widgets/custom_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:banners_app/widgets/option_widget.dart';
@@ -43,18 +44,18 @@ class CladingPage extends StatelessWidget {
               const SizedBox(
                 height: 30,
               ),
-              ImageWidget(imagePath: 'assets/images/clading.jpg'),
+              const ImageWidget(imagePath: 'assets/images/clading.jpg'),
               const SizedBox(
                 height: 15,
               ),
               OptionWidget(
                 optionName: 'بحث مقاسات',
                 iconName: Icons.search,
-                onPressed: () {
+                onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) {
-                      return SerachClading();
+                      return const ChooseCladding();
                     }),
                   );
                 },
@@ -65,7 +66,14 @@ class CladingPage extends StatelessWidget {
               OptionWidget(
                 optionName: 'اضافة كلادينج',
                 iconName: Icons.add,
-                onPressed: () {},
+                onTap: () {
+                   Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) {
+                      return const AddCladding();
+                    }),
+                  );
+                },
               ),
               const SizedBox(
                 height: 30,
@@ -73,7 +81,7 @@ class CladingPage extends StatelessWidget {
               OptionWidget(
                 optionName: ' تعديل كلادينج',
                 iconName: Icons.edit,
-                onPressed: () {},
+                onTap: () {},
               ),
               const SizedBox(
                 height: 15,
@@ -81,7 +89,7 @@ class CladingPage extends StatelessWidget {
               OptionWidget(
                 optionName: 'اضافة كلادينج',
                 iconName: Icons.delete,
-                onPressed: () {},
+                onTap: () {},
               ),
               const SizedBox(
                 height: 20,
