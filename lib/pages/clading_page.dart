@@ -1,5 +1,5 @@
 import 'package:banners_app/pages/serach_clading.dart';
-import 'package:banners_app/widgets/back_item.dart';
+import 'package:banners_app/widgets/custom_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:banners_app/widgets/option_widget.dart';
 import 'package:flutter/material.dart';
@@ -14,8 +14,6 @@ class CladingPage extends StatelessWidget {
         padding: const EdgeInsets.all(20.0),
         child: Center(
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center,
-            //crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Padding(
                 padding: const EdgeInsets.only(top: 30.0, right: 30),
@@ -88,7 +86,12 @@ class CladingPage extends StatelessWidget {
               const SizedBox(
                 height: 20,
               ),
-              const BackItem(label: 'رجوع',),
+              CustomButton(
+                label: 'رجوع',
+                onTap: () {
+                  Navigator.pop(context);
+                },
+              ),
             ],
           ),
         ),
