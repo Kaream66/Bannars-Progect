@@ -1,6 +1,6 @@
-import 'package:banners_app/pages/clading_page.dart';
+import 'package:banners_app/pages/cladding/clading_page.dart';
 import 'package:banners_app/pages/eckrelick_page.dart';
-import 'package:banners_app/pages/led_page.dart';
+import 'package:banners_app/pages/led/led_page.dart';
 import 'package:banners_app/pages/trans_page.dart';
 import 'package:banners_app/widgets/category.dart';
 import 'package:flutter/material.dart';

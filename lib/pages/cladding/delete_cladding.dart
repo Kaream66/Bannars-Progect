@@ -1,4 +1,3 @@
-import 'package:banners_app/widgets/add_widget.dart';
 import 'package:banners_app/widgets/choose_widget.dart';
 import 'package:banners_app/widgets/custom_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
@@ -61,7 +60,6 @@ class DeleteCladding extends StatelessWidget {
                 ),
                 const ChooseWidget(chooseName: 'اضف ملمس السطح'),
                 const ChooseWidget(chooseName: 'أختر المقاس'),
-               
                 const SizedBox(
                   height: 100,
                 ),

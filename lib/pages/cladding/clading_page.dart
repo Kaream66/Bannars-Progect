@@ -1,7 +1,7 @@
-import 'package:banners_app/pages/add_cladding.dart';
-import 'package:banners_app/pages/choose_cladding.dart';
-import 'package:banners_app/pages/delete_cladding.dart';
-import 'package:banners_app/pages/edit_cladding.dart';
+import 'package:banners_app/pages/cladding/add_cladding.dart';
+import 'package:banners_app/pages/cladding/choose_cladding.dart';
+import 'package:banners_app/pages/cladding/delete_cladding.dart';
+import 'package:banners_app/pages/cladding/edit_cladding.dart';
 import 'package:banners_app/widgets/custom_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:banners_app/widgets/option_widget.dart';
