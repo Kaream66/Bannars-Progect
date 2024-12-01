@@ -1,5 +1,7 @@
 import 'package:banners_app/pages/add_cladding.dart';
 import 'package:banners_app/pages/choose_cladding.dart';
+import 'package:banners_app/pages/delete_cladding.dart';
+import 'package:banners_app/pages/edit_cladding.dart';
 import 'package:banners_app/widgets/custom_button.dart';
 import 'package:banners_app/widgets/image_widget.dart';
 import 'package:banners_app/widgets/option_widget.dart';
@@ -67,7 +69,7 @@ class CladingPage extends StatelessWidget {
                 optionName: 'اضافة كلادينج',
                 iconName: Icons.add,
                 onTap: () {
-                   Navigator.push(
+                  Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) {
                       return const AddCladding();
@@ -81,15 +83,33 @@ class CladingPage extends StatelessWidget {
               OptionWidget(
                 optionName: ' تعديل كلادينج',
                 iconName: Icons.edit,
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return const EditCladding();
+                      },
+                    ),
+                  );
+                },
               ),
               const SizedBox(
-                height: 15,
+                height: 30,
               ),
               OptionWidget(
-                optionName: 'اضافة كلادينج',
+                optionName: 'حذف كلادينج',
                 iconName: Icons.delete,
-                onTap: () {},
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return const DeleteCladding();
+                      },
+                    ),
+                  );
+                },
               ),
               const SizedBox(
                 height: 100,
