@@ -11,7 +11,7 @@ class ImageWidget extends StatelessWidget {
         imagePath,
         width: 300,
         height: 150,
-        fit: BoxFit.cover,
+        fit: BoxFit.fill,
       ),
     );
   }

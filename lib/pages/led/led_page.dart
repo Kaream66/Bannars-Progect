@@ -1,7 +1,4 @@
-import 'package:banners_app/pages/cladding/add_cladding.dart';
-import 'package:banners_app/pages/cladding/choose_cladding.dart';
-import 'package:banners_app/pages/cladding/delete_cladding.dart';
-import 'package:banners_app/pages/cladding/edit_cladding.dart';
+
 import 'package:banners_app/pages/led/add_led.dart';
 import 'package:banners_app/pages/led/choose_led.dart';
 import 'package:banners_app/pages/led/delete_led.dart';
