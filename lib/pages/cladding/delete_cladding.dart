@@ -24,7 +24,7 @@ class DeleteCladding extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       const Text(
-                        '  تعديل  كلادينج',
+                        '  حذف  كلادينج',
                         style: TextStyle(
                           fontSize: 30,
                           color: Colors.black,
