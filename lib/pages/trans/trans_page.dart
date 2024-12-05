@@ -51,6 +51,7 @@ class TransPage extends StatelessWidget {
                 height: 15,
               ),
               OptionWidget(
+                iconColor: Colors.blue,
                 optionName: 'بحث عدد',
                 iconName: Icons.search,
                 onTap: () {
@@ -66,6 +67,7 @@ class TransPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.green,
                 optionName: 'اضافة ترانسات',
                 iconName: Icons.add,
                 onTap: () {
@@ -81,6 +83,7 @@ class TransPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.orange,
                 optionName: ' تعديل ترانسات',
                 iconName: Icons.edit,
                 onTap: () {
@@ -98,6 +101,7 @@ class TransPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.red,
                 optionName: 'حذف ترانسات',
                 iconName: Icons.delete,
                 onTap: () {

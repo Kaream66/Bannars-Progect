@@ -52,6 +52,7 @@ class LedPage extends StatelessWidget {
                 height: 15,
               ),
               OptionWidget(
+                iconColor: Colors.blue,
                 optionName: 'بحث مقاسات',
                 iconName: Icons.search,
                 onTap: () {
@@ -67,6 +68,7 @@ class LedPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.green,
                 optionName: 'اضافة ليدات',
                 iconName: Icons.add,
                 onTap: () {
@@ -82,6 +84,7 @@ class LedPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.orange,
                 optionName: ' تعديل ليدات',
                 iconName: Icons.edit,
                 onTap: () {
@@ -99,6 +102,7 @@ class LedPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.red,
                 optionName: 'حذف ليدات',
                 iconName: Icons.delete,
                 onTap: () {

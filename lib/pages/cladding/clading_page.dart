@@ -51,6 +51,7 @@ class CladingPage extends StatelessWidget {
                 height: 15,
               ),
               OptionWidget(
+                iconColor: Colors.blue,
                 optionName: 'بحث مقاسات',
                 iconName: Icons.search,
                 onTap: () {
@@ -66,6 +67,7 @@ class CladingPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.green,
                 optionName: 'اضافة كلادينج',
                 iconName: Icons.add,
                 onTap: () {
@@ -81,6 +83,7 @@ class CladingPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.orange,
                 optionName: ' تعديل كلادينج',
                 iconName: Icons.edit,
                 onTap: () {
@@ -98,6 +101,7 @@ class CladingPage extends StatelessWidget {
                 height: 30,
               ),
               OptionWidget(
+                iconColor: Colors.red,
                 optionName: 'حذف كلادينج',
                 iconName: Icons.delete,
                 onTap: () {
