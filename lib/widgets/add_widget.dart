@@ -3,10 +3,12 @@ import 'package:flutter/material.dart';
 class AddWidget extends StatelessWidget {
   const AddWidget({
     super.key,
-    required this.text, required this.label,
+    required this.text,
+    required this.label, 
   });
   final String text;
   final String label;
+
 
   @override
   Widget build(BuildContext context) {
@@ -18,10 +20,9 @@ class AddWidget extends StatelessWidget {
         children: [
           Expanded(
             child: TextFormField(
-              decoration:  InputDecoration(
-                border:const UnderlineInputBorder(),
-                labelText:label,
-                
+              decoration: InputDecoration(
+                border: const UnderlineInputBorder(),
+                labelText: label,
               ),
             ),
           ),

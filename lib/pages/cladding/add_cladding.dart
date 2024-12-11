@@ -71,6 +71,7 @@ class AddCladding extends StatelessWidget {
                   label: 'أضف مقاسات',
                 ),
                 const AddWidget(
+                 
                   text: 'أضف العدد',
                   label: 'أضف العدد',
                 ),
